@@ -15,8 +15,18 @@ namespace Assignment_2.Controllers
 
         public IActionResult Index()
         {
+           ViewBag.message = " All data has been received";
+
             return View();
         }
+
+         public IActionResult test(string first name, string last name, string email, int phone )
+        {
+            
+
+            return View();
+        }
+
 
         public IActionResult Privacy()
         {
