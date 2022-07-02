@@ -20,7 +20,7 @@ namespace Assignment_2.Controllers
             return View();
         }
 
-         public IActionResult test(string first name, string last name, string email, int phone )
+         public IActionResult test(string firstname, string lastname, string email, int phone )
         {
             
 
